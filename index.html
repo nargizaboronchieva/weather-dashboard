@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Weather Dashboard</title>
+</head>
+
+<body>
+ <div>
+  <div class="jumbotron" style="margin-bottom:0px; color:white; background-color: rgb(21, 138, 138);">
+    <h1 class="text-center" style="font-size: 50px; font-weight: 600;">Get Current Weather</h1>
+  </div>
+  <div class="container">
+    <div class="row">
+      <h3 class="text-center text-info">Enter City Name </h3>
+      <span id="error"></span>
+    </div>
+
+    <div class="row form-group form-inline" id="rowDiv">
+      <input type="text" name="city" id="city" class='form-control' placeholder="Enter City Name">
+      <button id="submitWeather" class="btn btn-info">Search City</button>
+    </div>
+    <div id="show"></div>
+  </div>
+ </div> 
+
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
