@@ -1,6 +1,6 @@
 ## Weather Dashboard
 
-**Link to published app:**
+**Link to published app:** https://nargizaboronchieva.github.io/weather-dashboard/
 
 ## Purpose
 
